@@ -95,6 +95,12 @@ main {
 /* Footer */
 footer {
     background-color: black;
+    color: white;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: center;
 }
 
 #social-media {
@@ -107,7 +113,7 @@ footer {
 
 #social-media i {
     font-size: 160%;
-    padding: 10%;
+    padding: 5%;
     color: white;
 }
 
