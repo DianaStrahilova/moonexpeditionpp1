@@ -50,7 +50,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -60,7 +60,8 @@ h1 {
 
 /* Navbar styles with dropdown toggle*/
 nav {
-    position: absolute;background-color: white;
+    position: absolute;
+    background-color: white;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -94,4 +95,42 @@ main {
 /* Footer */
 footer {
     background-color: green;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main Content */
+}
+
+/* Media query for larger screens (992px and up) */
+@media screen and (min-width:992px) {
+    #menu a:hover {
+       border-bottom: 1px solid black;
+    }
 }
