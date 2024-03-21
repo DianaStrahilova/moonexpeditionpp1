@@ -18,6 +18,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-family: 'Rubik Moonrocks', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+
 
 /* Header*/
 header {
@@ -35,13 +42,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Rubik Moonrocks', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black;
 }
 
 #menu {
@@ -97,8 +97,25 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/heroo.png") no-repeat center center/cover;
+    position: relative;
 }
 
+#cover-text {
+    /* Final rgba value sets the opasity so it is semi-transparent */
+    background-color: rgba(224, 13, 178, 0.27);
+    font-size: 130%;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 30px;
+    width: 60%;
+    min-height: 100px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#cover-text > h2 {
+    color: white;
+}
 
 /* Footer */
 footer {
@@ -127,6 +144,7 @@ footer p {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -139,7 +157,8 @@ footer p {
     #menu {
         display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -159,6 +178,12 @@ footer p {
 /* Media query for larger screens (992px and up) */
 @media screen and (min-width:992px) {
     #menu a:hover {
-       border-bottom: 1px solid black;
+        border-bottom: 1px solid black;
     }
+
+    /* Hero */
+    #cover-text {
+        width: 50%;
+    }
+    
 }
