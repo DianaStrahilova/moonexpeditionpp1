@@ -24,6 +24,10 @@ header {
     background-color: white;
 }
 
+h1 {
+    font-family: 'Rubik Moonrocks', sans-serif;
+}
+
 /* Main Content*/
 main {
     background-color: blueviolet;
