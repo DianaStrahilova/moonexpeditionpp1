@@ -86,7 +86,7 @@ nav {
 
 /* Main Content*/
 main {
-    background-color: blueviolet;
+    background-color: white;
     /* Make element take any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 76px;
