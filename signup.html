@@ -30,7 +30,7 @@
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="signup.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
     </header>
@@ -38,9 +38,54 @@
     <!-- Main Content -->
     <main>
         <section>
-            <h2> Sign Up For An Eligibility </h2>
-            <form>
-
+            <h2> Moon Expedition Sign Up Form </h2>
+            <p>Thank you for your interest in joining our Moon Expedition. Please fill out the following form to reserve
+                your spot on this once-in-a-lifetime adventure.</p>
+            <hr>
+            <form method="post" action="https://formdump.codeinstitute.net/">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <div>
+                        <label for="name-field"> Full Name:</label>
+                        <input id="name-field" type="text" placeholder="Your Full Name">
+                    </div>
+                    <div>
+                        <label for="email-field">Email:</label>
+                        <input id="email" type="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div>
+                        <label for="phone-number">Phone Number:</label>
+                        <input id="phone-number" type="text" name="phone-number" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div>
+                        <label for="date-of-birth">Date Of Birth:</label>
+                        <input type="date" id="date-of-birth" name="date-of-birth">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Medical Information</legend>
+                    <div>
+                        <label for="medical">Do you have any medical conditions we should be aware of?</label>
+                        <select id="medical" name="medical">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="if-yes">If yes, please provide details:</label>
+                        <div>
+                            <textarea id="if-yes" name="if-yes" rows="5" cols="50"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                </fieldset>
+                <h3>Terms and Conditions</h3>
+                <p>By submitting this form, you acknowledge that you have read and agree to abide by the terms and
+                    conditions of the Moon Expedition. You understand that space travel involves inherent risks and
+                    that you will follow all safety protocols and instructions provided by the expedition
+                    organizers.</p>
+                </div>
+                <button type="submit"><strong>Sign Up Now</strong></button>
             </form>
         </section>
     </main>
