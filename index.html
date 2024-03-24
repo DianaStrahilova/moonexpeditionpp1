@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css?v=1.1">
+    <link rel="stylesheet" href="assets/css/style.css?v=1.3">
 </head>
 
 <body>
@@ -43,35 +43,47 @@
             </div>
         </section>
 
-        <!--Welcome Section-->
+        <!-- Welcome Div -->
         <div>
-            <h2> Welcome To Your Lunar Adventure</h2>
-            <hr>
-            <p><b>Are you ready to journey to the Moon?</b></p>
-            <p>Prepare for an unforgettable expedition that will take you to the very edge of human exploration.</p>
-            <p>Join us as we venture into the unknown and unlock the mysteries of Earth's celestial companion. </p>
-
-            <section>
-                <div>
-                    <h2>Why Choose Our Expedition?</h2>
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i><b>Expert Guidance:</b> Led by seasoned astronauts and space experts, our expedition ensures your
-                            safety and provides valuable insights into lunar exploration.</li>
-                        <li><i class="fa-solid fa-check"></i><b>Cutting-Edge Technology:</b> Travel in style aboard our advanced spacecraft, equipped with
-                            state-of-the-art systems for a comfortable and thrilling journey.</li>
-                        <li><i class="fa-solid fa-check"></i><b>Once-in-a-Lifetime Experience:</b> Walk in the footsteps of the Apollo astronauts and witness
-                            the beauty of the Moon up close. This is a journey you'll never forget.</li>
-                    </ul>
+            <div id="welcomeText">
+                <h2> Welcome To Your Lunar Adventure</h2>
+                
+                <p><b>Are you ready to journey to the Moon?</b></p>
+                <p>Prepare for an unforgettable expedition that will take you to the very edge of human exploration.</p>
+                <p>Join us as we venture into the unknown and unlock the mysteries of Earth's celestial companion. </p>
+            </div>
+            <!-- Reasons To Choose Us -->
+            <div id="expeditionImageText">
+                <div class="welcome-image">
+                    <img src="./assets/images/welcome2.jpg" alt="AI generated image of people exploring the moon">
                 </div>
-            </section>
-            <div class="welcome-image"></div>
+                <section>
+                    <div>
+                        <h2>Why Choose Our Expedition?</h2>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i><b>Expert Guidance:</b> Led by seasoned astronauts and
+                                space experts, our expedition ensures your
+                                safety and provides valuable insights into lunar exploration.</li>
+                            <li><i class="fa-solid fa-check"></i><b>Cutting-Edge Technology:</b> Travel in style aboard
+                                our advanced spacecraft, equipped with
+                                state-of-the-art systems for a comfortable and thrilling journey.</li>
+                            <li><i class="fa-solid fa-check"></i><b>Once-in-a-Lifetime Experience:</b> Walk in the
+                                footsteps of the Apollo astronauts and witness
+                                the beauty of the Moon up close. This is a journey you'll never forget.</li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="welcome-image">
+                    <img src="./assets/images/welcome.png" alt="A picture of Earth taken from the Moon">
+                </div>
+            </div>
         </div>
         <!-- Location Section -->
-        <section>
+        <section id="mapSection">
             <h3>Visit Us In Our Office</h3>
             <div>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1dHriJn8IE2IXXMP6Y1Shejjbf1Q&hl=en&ehbc=2E312F"
-                    width="640" height="480"></iframe>
+                    id="map"></iframe>
             </div>
         </section>
     </main>

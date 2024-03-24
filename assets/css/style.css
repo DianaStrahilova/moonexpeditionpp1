@@ -117,7 +117,52 @@ main {
     color: white;
 }
 
-/* Welcome Section */
+/* Welcome Div */
+#welcomeText {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#expeditionImageText {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+#expeditionImageText h2 {
+    text-align: center;
+}
+
+.welcome-image {
+    width: 30%;
+}
+
+.welcome-image img {
+    width: 100%;
+}
+
+#expeditionImageText section {
+    width: 30%;
+}
+
+#expeditionImageText section h2 {
+    margin-bottom: 2rem;
+}
+
+#expeditionImageText section ul {
+    list-style-type: none;
+}
+
+#expeditionImageText section ul li {
+    margin-bottom: 2rem;
+}
+
+#expeditionImageText section ul i {
+    margin-right: 8px;
+}
 
 
 /* Location Section */
@@ -125,6 +170,9 @@ main {
 
 /* About Page */
 
+
+
+/* Sign Up */ 
 
 
 /* Footer */
