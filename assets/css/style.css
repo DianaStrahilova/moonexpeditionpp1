@@ -371,8 +371,10 @@ footer p {
     color: white;
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+
+
+/* Media query smaller deices */
+@media screen and (max-width: 768px) {
 
     /* Header */
     nav {
@@ -401,11 +403,20 @@ footer p {
         margin: 0 0.5rem;
     }
 
-    /* Main Content */
+    /* Main Content Home */
+    #expeditionImageText {
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 1rem;
+    }
+
+    .welcome-image {
+        width: 100%;
+    }
 }
 
 /* Media query for larger screens (992px and up) */
-@media screen and (min-width:992px) {
+@media screen and (max-width:992px) {
     #menu a:hover {
         border-bottom: 1px solid black;
     }
