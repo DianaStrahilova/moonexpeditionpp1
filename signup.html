@@ -38,54 +38,61 @@
     <!-- Main Content -->
     <main>
         <!-- Sign Up Form -->
-        <section>
+        <section id="signUp">
             <h2> Moon Expedition Sign Up Form </h2>
-            <p>Thank you for your interest in joining our Moon Expedition. Please fill out the following form to reserve
+            <p id="thankYouMsg">Thank you for your interest in joining our Moon Expedition. Please fill out the
+                following form to reserve
                 your spot on this once-in-a-lifetime adventure.</p>
             <hr>
             <form method="post" action="https://formdump.codeinstitute.net/">
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <div>
-                        <label for="name-field"> Full Name:</label>
-                        <input id="name-field" type="text" placeholder="Your Full Name" required>
-                    </div>
-                    <div>
-                        <label for="email-field">Email:</label>
-                        <input id="email" type="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div>
-                        <label for="phone-number">Phone Number:</label>
-                        <input id="phone-number" type="text" name="phone-number" placeholder="Enter Your Phone Number"
-                            required>
-                    </div>
-                    <div>
-                        <label for="date-of-birth">Date Of Birth:</label>
-                        <input type="date" id="date-of-birth" name="date-of-birth" required>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Medical Information</legend>
-                    <div>
-                        <label for="medical">Do you have any medical conditions we should be aware of?</label>
-                        <select id="medical" name="medical" required>
-                            <option value="no">No</option>
-                            <option value="yes">Yes</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="if-yes">If yes, please provide details:</label>
+                <div id="formElements">
+                    <!-- Fieldset Personal Information -->
+                    <fieldset>
+                        <legend>Personal Information</legend>
                         <div>
-                            <textarea id="if-yes" name="if-yes" rows="5" cols="50"></textarea>
+                            <label for="name-field"> Full Name:</label>
+                            <input id="name-field" type="text" placeholder="Your Full Name" required>
                         </div>
-                    </div>
-                    <div>
-                </fieldset>
-                <h3>Terms and Conditions <input type="checkbox" name="accept_terms" value="yes" checked required></h3>
-                <p>By submitting this form, you acknowledge that you have read and agree to abide by the terms and
+                        <div>
+                            <label for="email-field">Email:</label>
+                            <input id="email" type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div>
+                            <label for="phone-number">Phone Number:</label>
+                            <input id="phone-number" type="text" name="phone-number"
+                                placeholder="Enter Your Phone Number" required>
+                        </div>
+                        <div>
+                            <label for="date-of-birth">Date Of Birth:</label>
+                            <input type="date" id="date-of-birth" name="date-of-birth" required>
+                        </div>
+                    </fieldset>
+                    <!-- Medical Information -->
+                    <fieldset>
+                        <legend>Medical Information</legend>
+                        <div id="medicalQuestion">
+                            <label for="medical">Do you have any medical conditions we should be aware of?</label>
+                            <select id="medical" name="medical" required>
+                                <option value="no">No</option>
+                                <option value="yes">Yes</option>
+                            </select>
+                        </div>
+                        <div id="ifYesContainer">
+                            <label for="if-yes">If yes, please provide details:</label>
+                            <div>
+                                <textarea id="if-yes" name="if-yes" rows="5" cols="50"></textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <!-- Terms and Conditions -->
+
+                <p id="terms">By submitting this form, you acknowledge that you have read and agree to abide by the terms and
                     conditions of the Moon Expedition. You understand that space travel involves inherent risks and
                     that you will follow all safety protocols and instructions provided by the expedition
                     organizers.</p>
+                <h3> I Accept the Terms and Conditions<input type="checkbox" name="accept_terms" value="yes" checked
+                        required></h3>
                 </div>
                 <button type="submit"><strong>Sign Up Now</strong></button>
                 <br>

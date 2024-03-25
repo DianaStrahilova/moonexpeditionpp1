@@ -259,6 +259,90 @@ main {
 }
 
 /* Sign Up */ 
+#signUp h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#signUp #thankYouMsg {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#signUp form legend {
+    text-align: center;
+}
+
+#signUp form fieldset {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+#signUp form #formElements input {
+    width: 100%;
+    height: 2rem;
+    border-radius: 3px;
+    border: 1px solid #333;
+    padding: 0.2rem;
+}
+
+#signUp form {
+    margin-top: 3rem;
+}
+
+#signUp form label {
+    display: block;
+}
+
+#signUp #formElements {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+#medicalQuestion {
+    display: flex;
+}
+
+#signUp h3 {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+#terms {
+    padding: 0.5rem;
+    margin-top: 4rem;
+}
+
+#signUp button {
+    margin: 0 auto;
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#signUp button:hover {
+    cursor: pointer;
+    background-color: #555;
+}
+
+#signUp input[name='accept_terms'] {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
 
 
 /* Footer */
