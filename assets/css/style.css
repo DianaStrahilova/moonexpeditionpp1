@@ -113,7 +113,7 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
     color: white;
 }
 
@@ -258,7 +258,7 @@ main {
     opacity: 1;
 }
 
-/* Sign Up */ 
+/* Sign Up */
 #signUp h2 {
     text-align: center;
     margin: 1rem 0;
@@ -354,7 +354,7 @@ footer {
 footer p {
     font-size: 20px;
     text-align: center;
-    
+
 }
 
 #social-media {
@@ -374,56 +374,7 @@ footer p {
 
 
 /* Media query smaller deices */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
 
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main Content Home */
-    #expeditionImageText {
-        flex-direction: column;
-        gap: 0px;
-        margin-top: 1rem;
-    }
-
-    .welcome-image {
-        width: 100%;
-    }
-}
-
-/* Media query for larger screens (992px and up) */
-@media screen and (max-width:992px) {
-    #menu a:hover {
-        border-bottom: 1px solid black;
-    }
-
-    /* Hero */
-    #cover-text {
-        width: 50%;
-    }
-    
 }
