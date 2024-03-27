@@ -374,4 +374,30 @@ footer p {
 
 
 /* Media query smaller deivices */
+@media screen and (max-width: 768px) {
+    /* Navbar dropdown toggle styles */
+    nav {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px purple;
+        display: none;
+        top: 100%;
+    }
+
+    .nav-toggle-label {
+        display: contents;
+        font-size: 2rem;
+    }
+
+    header {
+        gap: 1rem;
+    }
+
+    nav {
+        padding-top: 1rem;
+    }
+}
 
