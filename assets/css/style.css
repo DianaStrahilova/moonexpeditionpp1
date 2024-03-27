@@ -25,7 +25,6 @@ h1 {
     color: black;
 }
 
-
 /* Header*/
 header {
     background-color: white;
@@ -44,35 +43,30 @@ header a {
     color: inherit;
 }
 
+/* Navigation Menu */
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
 #menu {
-    font-size: 110%;
+    display: flex;
+    font-size: 150%;
     letter-spacing: 4px;
     list-style-type: none;
+    text-transform: uppercase;
 }
 
 #menu>li {
-    margin-bottom: 1em;
+   padding-left: 1rem;
+   margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid black;
-}
-
-/* Navbar styles with dropdown toggle*/
-nav {
-    position: absolute;
-    background-color: white;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px black;
-    display: none;
-    top: 100%;
-}
-
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
 }
 
 #nav-toggle {
@@ -80,7 +74,13 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    display: none;
+}
+
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
 }
 
 
@@ -373,8 +373,5 @@ footer p {
 
 
 
-/* Media query smaller deices */
-@media screen and (min-width: 768px) {
+/* Media query smaller deivices */
 
-
-}
