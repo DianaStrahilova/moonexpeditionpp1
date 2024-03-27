@@ -419,6 +419,7 @@ footer p {
     #welcomeText {
         padding: 0 0.5rem 0;
     }
+
     /* Align Content vertically */
     #expeditionImageText {
         flex-direction: column;
@@ -442,6 +443,31 @@ footer p {
         height: 10rem;
     }
 
+     /* About page */
+     main #about {
+        margin-top: ;
+     }
+
+     #aboutText {
+        flex-direction: column;
+        gap: 1rem;
+     }
+
+     #aboutExpedition {
+        margin-top: 1rem;
+     }
+
+     #expeditionText {
+        gap: 1rem 0;
+     }
+
+     #expeditionText span {
+        width: calc(50% - 0.5rem);
+     }
+
+     #expeditionText span:nth-of-type(odd) {
+        margin-right: 1rem;
+     }
 
 
 
