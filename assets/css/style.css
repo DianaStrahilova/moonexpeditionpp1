@@ -514,37 +514,3 @@ footer p {
 }
 
 /* Media query for tablets and larger (768px and up) */
-@media screen and (max-width: 1024px) {
-    header {
-        align-items: center;
-        min-height: 4rem;
-    }
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding: 0;
-    }
-
-    #menu {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-        margin: 0px;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 2rem;
-        margin: 0 0.5rem;
-    }
-
-}
