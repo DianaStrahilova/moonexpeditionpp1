@@ -379,6 +379,7 @@ footer p {
 
 /* Media query smaller deivices */
 @media screen and (max-width: 768px) {
+    /* Dropdown toggle menu styles */
     nav {
         padding-top: 1rem;
         position: absolute;
@@ -407,13 +408,38 @@ footer p {
         font-size: 1rem;
     }
 
-    #menu i {
-        display: contents
-    }
-    
+    /* Reduce size of logo to fit smaller screens*/
     #logo {
         font-size: 1.7rem;
         white-space: nowrap;
+    }
+
+    /* Main content */
+
+    #welcomeText {
+        padding: 0 0.5rem 0;
+    }
+    /* Align Content vertically */
+    #expeditionImageText {
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 1rem;
+    }
+
+    #expeditionImageText section {
+        width: 100%;
+    }
+
+    .welcome-image {
+        width: 100%;
+    }
+
+    #mapSection {
+        margin-top: 1rem;
+    }
+
+    #map {
+        height: 10rem;
     }
 
 
