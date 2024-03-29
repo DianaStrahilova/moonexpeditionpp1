@@ -420,7 +420,7 @@ footer p {
     #logo {
         font-size: 100%;
         white-space: nowrap;
-        margin: 0;
+        margin: 1rem;
     }
 
     /* Main content */
@@ -560,6 +560,10 @@ footer p {
     #logo {
         font-size: 2rem;
         margin: 0 0.5rem;
+    }
+
+    #cover-text {
+        width: 100%;
     }
 
     /* Home */
