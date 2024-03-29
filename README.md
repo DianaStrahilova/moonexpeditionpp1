@@ -43,7 +43,7 @@ ___
 ___
 **Main Content**
 
-The main content is the second the third component of the structure. It combines engaging information and invites for action.
+The main combines engaging information and invites for action.
 
 The first part of the main is a welcome message inviting visitors to join into the unknown. Along with all the reasons why and captivating images and a map location of  the office.
 
