@@ -221,7 +221,7 @@ main {
     flex-wrap: wrap;
 }
 
-#expeditionText span {
+#expeditionText div {
     width: 30%;
     border: 1px solid purple;
     border-radius: 5px;
@@ -229,7 +229,7 @@ main {
 }
 
 /* Make icons pop out */
-#expeditionText span i {
+#expeditionText div i {
     font-size: 3rem;
     color: white;
     background-color: purple;
@@ -240,7 +240,7 @@ main {
     margin-bottom: 10px;
 }
 
-#expaditionText span div {
+#expaditionText div {
     padding: 0 5px;
 }
 
@@ -378,7 +378,7 @@ footer p {
 
 
 /* Media query smaller deivices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     /* Dropdown toggle menu styles */
     header {
@@ -418,9 +418,9 @@ footer p {
 
     /* Reduce size of logo to fit smaller screens*/
     #logo {
-        font-size: 100%;
+        width: 100%;
+        font-size: 160%;
         white-space: nowrap;
-        margin: 1rem;
     }
 
     /* Main content */
@@ -471,12 +471,12 @@ footer p {
     }
 
     /* Calculate 50% of the parent size -5rem */
-    #expeditionText span {
+    #expeditionText div {
         width: calc(50% - 0.5rem);
     }
 
     /* Give each odd span 1rem margin to the right */
-    #expeditionText span:nth-of-type(odd) {
+    #expeditionText div:nth-of-type(odd) {
         margin-right: 1rem;
     }
 
@@ -647,3 +647,4 @@ footer p {
         width: 100%;
     }
 }
+
