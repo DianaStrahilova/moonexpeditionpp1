@@ -353,6 +353,18 @@ main {
 }
 
 /* Thank you */
+.hiddenMsg {
+   margin: 3rem;
+   text-align: center;
+   border: 2px solid purple;
+}
+
+.btn {
+    margin: 1rem;
+    text-decoration: none;
+}
+
+
 
 
 
