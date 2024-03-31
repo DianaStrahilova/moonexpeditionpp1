@@ -60,6 +60,10 @@ nav {
     text-transform: uppercase;
 }
 
+#menu a:hover {
+    border-bottom: #333;
+}
+
 #menu>li {
     padding-left: 1rem;
     margin-bottom: 1em;
