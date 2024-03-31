@@ -18,19 +18,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+#logo {
     font-family: 'Rubik Moonrocks', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
 }
 
 /* Header*/
 header {
     background-color: white;
     padding: 0 1rem;
-    position: fixed;
+    position: sticky;
     z-index: 99;
+    top: 0px;
     width: 100%;
     box-shadow: 0 2px 2px black;
     display: flex;
@@ -46,10 +50,11 @@ header a {
 /* Navigation Menu */
 nav {
     display: block;
-    position: relative;
+
     box-shadow: none;
-    width: fit-content;
+
     padding-right: 1rem;
+    height: 100%;
 }
 
 #menu {
@@ -58,6 +63,8 @@ nav {
     letter-spacing: 4px;
     list-style-type: none;
     text-transform: uppercase;
+    height: 100%;
+    gap: 1rem;
 }
 
 #menu a:hover {
@@ -65,8 +72,8 @@ nav {
 }
 
 #menu>li {
-    padding-left: 1rem;
-    margin-bottom: 1em;
+    padding-left: 
+    margin-bottom:
 }
 
 .active {
@@ -85,11 +92,7 @@ nav {
     display: none;
 }
 
-#logo {
-    font-size: 200%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-}
+
 
 
 /* Main Content*/
@@ -97,7 +100,7 @@ main {
     background-color: white;
     /* Make element take any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 76px;
+    margin-top:
 }
 
 /* Hero Section */
@@ -403,6 +406,8 @@ footer p {
     /* Dropdown toggle menu styles */
     header {
         gap: 1rem;
+        padding: 5px 5px;
+        align-items: center;
     }
 
     nav {
@@ -415,6 +420,7 @@ footer p {
         box-shadow: 0 2px 2px #3a3a3a;
         display: none;
         top: 100%;
+        height: auto;
     }
 
     .nav-toggle-label {
@@ -424,11 +430,13 @@ footer p {
 
     #menu {
         text-align: center;
+        padding: 1rem 0;
+        justify-content: space-around;
     }
 
     #menu>li {
-        margin-bottom: 1rem;
-        padding: 1rem;
+        margin-bottom: ;
+        padding: ;
     }
 
     #menu i {
@@ -438,9 +446,9 @@ footer p {
 
     /* Reduce size of logo to fit smaller screens*/
     #logo {
-        width: 100%;
-        font-size: 160%;
-        white-space: nowrap;
+        font-size: 1.5rem;
+        line-height: 1;
+        margin: 0;
     }
 
     /* Main content */
