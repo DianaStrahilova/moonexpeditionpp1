@@ -71,11 +71,6 @@ nav {
     border-bottom: #333;
 }
 
-#menu>li {
-    padding-left: 
-    margin-bottom:
-}
-
 .active {
     border-bottom: 1px solid black;
 }
@@ -92,15 +87,11 @@ nav {
     display: none;
 }
 
-
-
-
 /* Main Content*/
 main {
     background-color: white;
     /* Make element take any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top:
 }
 
 /* Hero Section */
@@ -255,11 +246,11 @@ main {
     margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .gallery img {
-    width: 30%;
+    width: 33%;
     border-radius: 5px;
     opacity: 0.9;
     transition: 0.3s;
@@ -367,11 +358,6 @@ main {
     text-decoration: none;
 }
 
-
-
-
-
-
 /* Footer */
 footer {
     background-color: black;
@@ -398,10 +384,8 @@ footer p {
     color: white;
 }
 
-
-
 /* Media query smaller deivices */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     /* Dropdown toggle menu styles */
     header {
@@ -432,11 +416,6 @@ footer p {
         text-align: center;
         padding: 1rem 0;
         justify-content: space-around;
-    }
-
-    #menu>li {
-        margin-bottom: ;
-        padding: ;
     }
 
     #menu i {
