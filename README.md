@@ -129,8 +129,8 @@ Mobile
 
 **Validator Testing**
 
-HTML
-- No errors were returned when passing through the official [W3C Validator.](https://validator.w3.org/)
+- HTML
+   - No errors were returned when passing through the official [W3C Validator.](https://validator.w3.org/)
 
 index.html
 ![](./assets/readme-images/homeV.png)
@@ -141,10 +141,22 @@ about.html
 signup.html
 ![](./assets/readme-images/signupV.png)
 
-CSS
-- No errors were found when passing throught the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+- CSS
+  - No errors were found when passing throught the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
 style.css
 ![](./assets/readme-images/cssV.png)
+
+- Accesibility 
+   - Colors and fonts are easy to read and accesible by running it through Lighthouse in Devtools device toolbar.
+
+Home Page 
+![](./assets/readme-images/homeL.png)
+
+About Page 
+![](./assets/readme-images/aboutL.png)
+
+Sign Up 
+![](./assets/readme-images/signupL.png)
 
 
 
@@ -167,7 +179,8 @@ The website was deployed to GitHub Pages. The steps are as follows.
    2. [Flexbox Froggy](https://flexboxfroggy.com/)
    3. The header and navbar menu was insipired by [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html)
    4. More CSS exercises [W3schools](https://www.w3schools.com/)
----
+<br>
+
 #### Content and Media
 The content and media were taken from the followig resources:
    1. Five out of 6 images were AI generated from [Wowzer](https://app.wowzer.ai/).
