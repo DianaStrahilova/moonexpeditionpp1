@@ -181,7 +181,7 @@ The website was deployed to GitHub Pages. The steps are as follows.
    4. More CSS exercises [W3schools](https://www.w3schools.com/)
 <br>
 
-#### Content and Media
+### Content and Media
 The content and media were taken from the followig resources:
    1. Five out of 6 images were AI generated from [Wowzer](https://app.wowzer.ai/).
    2. Image of Moon's surface with Earth in the distance was downloaded from [Pexels](https://www.pexels.com/).
