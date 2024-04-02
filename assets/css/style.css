@@ -446,6 +446,8 @@ footer p {
         width: 100%;
     }
 
+    /* Home */
+
     /* Align Content vertically */
     #expeditionImageText {
         flex-direction: column;
