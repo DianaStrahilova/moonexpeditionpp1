@@ -131,6 +131,7 @@ Mobile
 
 HTML
 - No errors were returned when passing through the official [W3C Validator.](https://validator.w3.org/)
+
 index.html
 ![](./assets/readme-images/homeV.png)
 
