@@ -2,6 +2,9 @@
 ## Moon Expedition ![logo](./assets/readme-images/logo.png)
 
 Moon Expedition is a visionary project aimed at realizing the dream of human space exploration beyond Earth's boundaries, specifically targeting our nearest celestial neighbor, the Moon. The essence of Moon Expedition lies in its mission to make space travel accessible, safe, and enriching for humanity.
+
+Here is a link to the [live website](https://dianastrahilova.github.io/moonexpeditionpp1/index.html)
+
 ![](./assets/readme-images/readme1.png)
 <hr>
 
@@ -119,41 +122,45 @@ Mobile
 ---
 **Testing**
 
+- Website was tested and workd in different browsers.
+- The website is also responsive to all smaller devices, looks and functions good.
+- The sign up form works and requires entries in every field.
 
 
+**Validator Testing**
 
+HTML
+- No errors were returned when passing through the official [W3C Validator.](https://validator.w3.org/)
+index.html
+![](./assets/readme-images/homeV.png)
 
+about.html
+![](./assets/readme-images/aboutV.png)
 
----
-**Test Tools**
+signup.html
+![](./assets/readme-images/signupV.png)
 
-
-
-
-
-
-**Test Results**
-
-
-
-
-
+CSS
+- No errors were found when passing throught the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+style.css
+![](./assets/readme-images/cssV.png)
 
 
 
 ---
 ### Deployment
-Project was deployed following the steps:
-   1. In the project repository go to settings.
+The website was deployed to GitHub Pages. The steps are as follows.
+   1. In the GitHub Repository go to Settings tab.
    2. Under Code and Automation, go to Pages.
-   3. Under branch, select main.
-   4. Select save
+   3. From the source section drop-down menu, select the Main Branch.
+   4. Select save.
    5. Wait a couple of minutes for the website to go live.
+
+ Link to the live website [here](https://dianastrahilova.github.io/moonexpeditionpp1/index.html)
 ---
 
 ### Reference and Credits 
 **References**
-The follwing references had an impact of my thinking and style for developing the website.
 
    1. Code Institute Learning Modules.
    2. [Flexbox Froggy](https://flexboxfroggy.com/)
@@ -162,12 +169,13 @@ The follwing references had an impact of my thinking and style for developing th
 ---
 #### Content and Media
 The content and media were taken from the followig resources:
-   1. Five out of 6 images were AI generated from [Wowzer](https://app.wowzer.ai/)
-   2. Image of Moon's surface with Earth in the distance was downloaded from [Pexels](https://www.pexels.com/)
-   3. Pages witten content was AI generated with https://chat.openai.com/
-   4. The Social Media Icons and the Triple Bar icon were downloaded from [Font Awesome](https://fontawesome.com/)
-   5. Google Fonts was used to define the fonts in the stylesheet. [Google Fonts](https://fonts.google.com/)
-   6. Colors 
+   1. Five out of 6 images were AI generated from [Wowzer](https://app.wowzer.ai/).
+   2. Image of Moon's surface with Earth in the distance was downloaded from [Pexels](https://www.pexels.com/).
+   3. Pages witten content was AI generated with https://chat.openai.com/.
+   4. The Social Media Icons and the Triple Bar icon were downloaded from [Font Awesome](https://fontawesome.com/).
+   5. Google Fonts was used to define the fonts in the stylesheet. [Google Fonts](https://fonts.google.com/).
+   6. Colors used were simple black, white, purple and grey.
+   7. Favicon was AI generated from [Wowzer](https://app.wowzer.ai/) and converted into a Favicon with [Favicon Generator](https://favicon.io/favicon-converter/).
 
 
 
