@@ -122,7 +122,7 @@ Mobile
 ---
 **Testing**
 
-- Website was tested and workd in different browsers.
+- Website was tested and works in different browsers.
 - The website is also responsive to all smaller devices, looks and functions good.
 - The sign up form works and requires entries in every field.
 
