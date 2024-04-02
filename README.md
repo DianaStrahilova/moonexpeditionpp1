@@ -2,6 +2,7 @@
 ## Moon Expedition ![logo](./assets/readme-images/logo.png)
 
 Moon Expedition is a visionary project aimed at realizing the dream of human space exploration beyond Earth's boundaries, specifically targeting our nearest celestial neighbor, the Moon. The essence of Moon Expedition lies in its mission to make space travel accessible, safe, and enriching for humanity.
+![](./assets/readme-images/readme1.png)
 <hr>
 
 ### Customer Requirements 
@@ -41,6 +42,17 @@ ___
   3. The third part is the navigation menu that allows the visitor to explore more information.
      
   The Logo is repeated across all pages of the website.
+
+  Desktop
+  ![](./assets/readme-images/desktopmenu.png)
+
+  Mobile 
+
+  <img src="./assets/readme-images/mobilemenu.png" width="214" height="66">
+
+
+
+  
 ___
 **Main Content**
 
@@ -51,10 +63,58 @@ The first part of the main is a welcome message inviting visitors to join into t
 The second part is About. It contents more detailed information about the expedition. What to expect and what it includes. Followed by more images.
 
 The third part is a Sign Up and a Medical information form, inviting the visitor to take action and join the expedition. 
+
+**Home Page**
+Desktop
+![](./assets/readme-images/desktophome1.png)
+
+![](./assets/readme-images/desktophome2.png)
+
+![](./assets/readme-images/desktophome3.png)
+
+
+Mobile 
+
+<img src="./assets/readme-images/homemobile1.png" height="653" width="280">
+<img src="./assets/readme-images/homemobile2.png" height="653" width="280">
+<img src="./assets/readme-images/homemobile3.png" height="400" width="280">
+
+
+**About Page**
+
+Desktop
+![](./assets/readme-images/aboutdesktop1.png)
+
+![](./assets/readme-images/aboutdesktop2.png)
+
+Mobile 
+
+<img src="./assets/readme-images/aboutmobile1.png" height="653" width="280">
+<img src="./assets/readme-images/aboutmobile2.png" height="653" width="280">
+<img src="./assets/readme-images/aboutmobile3.png" height="653" width="280">
+<img src="./assets/readme-images/aboutmobile4.png" height="653" width="280">
+
+
+**Sign Up Page**
+
+Desktop 
+![](./assets/readme-images/signupdesktop.png)
+
+Mobile 
+
+<img src="./assets/readme-images/signupmobile.png" height="653" width="280">
+
 ___
 **The Footer**
 
 The Footer is also repeated across all pages. It includes social media links.
+
+Desktop
+![](./assets/readme-images/footerdesktop.png)
+
+Mobile
+
+<img src="./assets/readme-images/footermobile.png" height="95" width="280">
 
 ---
 **Testing**
@@ -121,4 +181,4 @@ The content and media were taken from the followig resources:
      
 
      
->>>>>>> origin/main
+
