@@ -133,30 +133,30 @@ Mobile
    - No errors were returned when passing through the official [W3C Validator.](https://validator.w3.org/)
 
 index.html
-![](./assets/readme-images/homeV.png)
+![](./assets/readme-images/homev.png)
 
 about.html
-![](./assets/readme-images/aboutV.png)
+![](./assets/readme-images/aboutv.png)
 
 signup.html
-![](./assets/readme-images/signupV.png)
+![](./assets/readme-images/signupv.png)
 
 - CSS
   - No errors were found when passing throught the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
 style.css
-![](./assets/readme-images/cssV.png)
+![](./assets/readme-images/cssv.png)
 
 - Accesibility 
    - Colors and fonts are easy to read and accesible by running it through Lighthouse in Devtools device toolbar.
 
 Home Page 
-![](./assets/readme-images/homeL.png)
+![](./assets/readme-images/homel.png)
 
 About Page 
-![](./assets/readme-images/aboutL.png)
+![](./assets/readme-images/aboutl.png)
 
 Sign Up 
-![](./assets/readme-images/signupL.png)
+![](./assets/readme-images/signupl.png)
 
 
 
