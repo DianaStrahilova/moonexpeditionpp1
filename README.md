@@ -183,13 +183,13 @@ The website was deployed to GitHub Pages. The steps are as follows.
 
 ### Content and Media
 The content and media were taken from the followig resources:
-   1. Five out of 6 images were AI generated from [Wowzer](https://app.wowzer.ai/).
-   2. Image of Moon's surface with Earth in the distance was downloaded from [Pexels](https://www.pexels.com/).
-   3. Pages witten content was AI generated with https://chat.openai.com/.
-   4. The Social Media Icons and the Triple Bar icon were downloaded from [Font Awesome](https://fontawesome.com/).
-   5. Google Fonts was used to define the fonts in the stylesheet. [Google Fonts](https://fonts.google.com/).
-   6. Colors used were simple black, white, purple and grey.
-   7. Favicon was AI generated from [Wowzer](https://app.wowzer.ai/) and converted into a Favicon with [Favicon Generator](https://favicon.io/favicon-converter/).
+   - Five out of the six images were AI generated from [Wowzer](https://app.wowzer.ai/).
+   - The text content was created by [ChatGpt](https://chat.openai.com/), following my instructions.
+   - Image of Moon's surface with Earth in the distance was downloaded from [Pexels](https://www.pexels.com/).
+   - The Social Media Icons and the Triple Bar icon were downloaded from [Font Awesome](https://fontawesome.com/).
+   - Google Fonts was used to define the fonts in the stylesheet. [Google Fonts](https://fonts.google.com/).
+   - Colors used were simple black, white, purple and grey.
+   - Favicon was AI generated from [Wowzer](https://app.wowzer.ai/) and converted into a Favicon with [Favicon Generator](https://favicon.io/favicon-converter/).
 
 
 
