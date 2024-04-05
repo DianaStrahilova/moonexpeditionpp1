@@ -1,4 +1,3 @@
-=======
 ## Moon Expedition ![logo](./assets/readme-images/logo.png)
 
 Moon Expedition is a visionary project aimed at realizing the dream of human space exploration beyond Earth's boundaries, specifically targeting our nearest celestial neighbor, the Moon. The essence of Moon Expedition lies in its mission to make space travel accessible, safe, and enriching for humanity.
