@@ -8,6 +8,7 @@ Here is a link to the [live website](https://dianastrahilova.github.io/moonexped
 <hr>
 
 ### Customer Requirements 
+
 The goals of the website are:
 - Safety Assurance
 - Experiential Quality
